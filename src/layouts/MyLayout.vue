@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          투두이스트 클론
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -20,8 +20,10 @@
     </q-header>
 
     <q-drawer
+      side="left"
       v-model="leftDrawerOpen"
       show-if-above
+      :breakpoint="750"
       bordered
       content-class="bg-grey-2"
     >
