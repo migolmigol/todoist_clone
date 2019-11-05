@@ -1,15 +1,17 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          @click="leftDrawerOpen = !leftDrawerOpen"
-          icon="menu"
-          aria-label="Menu"
-        />
+  <div class="row justify-center">
+    <div class="col-sm-12 col-md-10">
+      <q-layout view="hhh lpr lfr">
+        <q-header elevated>
+          <q-toolbar>
+            <q-btn
+              flat
+              dense
+              round
+              @click="leftDrawerOpen = !leftDrawerOpen"
+              icon="menu"
+              aria-label="Menu"
+            />
 
         <q-toolbar-title>
           투두이스트 클론
